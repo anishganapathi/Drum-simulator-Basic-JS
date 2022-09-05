@@ -1,0 +1,122 @@
+@font-face {
+  font-family: main_family_bold;
+  src: url(assets/fonts/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+  font-family: main_family_light;
+  src: url(assets/fonts/LEMONMILK-Light.otf);
+}
+@font-face {
+  font-family: main_family_regular;
+  src: url(assets/fonts/LEMONMILK-Regular.otf);
+}
+
+
+body {
+   font-family: main_family_regular;
+  text-align: center;
+  background-color: #000000;
+  /* background-image: url('images/drm bg 7.jpg'); */
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  
+   font-family: main_family_regular;
+
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-size: 9px;
+ font-family: main_family_regular;
+}
+
+.a {
+   background-image: url("images/tom1.png");
+}
+
+.s {
+   background-image: url("images/tom2.png");
+
+}
+
+.d {
+   background-image: url("images/tom3.png");
+
+}
+
+.f {
+   background-image: url("images/tom4.png");
+
+}
+
+.j {
+   background-image: url("images/snare.png");
+
+}
+
+.k {
+   background-image: url("images/crash.png");
+
+}
+
+.l {
+   background-image: url("images/kick.png");
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+    border: 6px solid #06283D;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 18px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: main_family_regular;
+    margin: 10px;
+    background-color: black;
+    animation-timing-function: cubic-bezier(0, 1.34, 1, 1);
+    background-repeat: round;
+}
+
+
+
+
+.drum:hover{
+  animation-timing-function: cubic-bezier(0, 1.34, 1, 1);
+ transform: scale(1.05);
+}
+
+
+footer {
+ font-family: main_family_regular;
+}
